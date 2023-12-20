@@ -106,7 +106,7 @@ header #carts-products {
     display: none;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-40%);
     top: 100%;
     width: 300px;
     background-color: #677883;
