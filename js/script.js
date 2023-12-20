@@ -40,7 +40,7 @@ const products = [
         type: "laptop",
         id: 3,
         description: "Details\n\
-                        Lenovo ThinkPad E14 Gen2\n\
+                        Lenovo ThinkPad E14\n\
                         Intel Core i7-1165G7\n\
                         512GB SSD\n\
                         8GB Ram\n\
