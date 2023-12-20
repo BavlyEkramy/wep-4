@@ -112,8 +112,8 @@ header #carts-products {
     background-color: #677883;
     border-radius: 20px;
     z-index: 5;
+    text-align: center;
 }
-
 
 header .c-bag .bagItem {
     margin: 5px;
