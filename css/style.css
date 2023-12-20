@@ -58,13 +58,17 @@ header .nav {
     align-self: flex-end;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
 nav ul#user_info {
     display: flex;
     align-items: end;
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
-    list-style: none;
 }
 
 nav ul#user_info li i {
