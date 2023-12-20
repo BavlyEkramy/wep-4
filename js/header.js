@@ -24,7 +24,7 @@ isFalse = () => {
                         </div>
                     </li>
                     <li><a href="#" id="user"></a></li>
-                    <li><a href="index.html" id="logout" onclick="logout()">Log out</a></li>
+                    <li><a href="login.html" id="logout" onclick="logout()">Log out</a></li>
                 </ul>`
 }
 Login_header.innerHTML = isTrue();
@@ -35,6 +35,7 @@ if (userName) {
 
 function logout() {
     localStorage.removeItem("userName");
+    localStorage.setItem("index",null)
     setTimeout(() => {
         window.location = "index.html";
     }, 400)
